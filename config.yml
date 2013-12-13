@@ -1,0 +1,9 @@
+#Use this MOTD, or the MOTD defined in server.properties? If true, this MOTD will be used.
+enabled: true
+
+#You can use color codes with (*). See http://minecraft.gamepedia.com/Formatting_codes for codes. Replace & with (*).
+
+#What should the MOTD be for people who have joined before? <player> is replaced by the player's name.
+motd: (*)aWelcome, <player>! (*)cYou're awesome!
+#What should the MOTD be for people who haven't joined before?
+motd_never_joined: (*)cYou have never joined this server! :O

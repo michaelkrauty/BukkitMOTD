@@ -1,0 +1,14 @@
+name: BukkitMOTD
+main: me.michaelkrauty.BukkitMOTD.BukkitMOTD
+author: michaelkrauty
+version: 1.0
+commands:
+   motdreload:
+     description: Reload BukkitMOTD config.yml
+     usage: /motdreload
+   string:
+     description: string
+     usage: /string
+permissions:
+   bukkitmotd.motdreload:
+     description: Gives access to /motdreload (reloads MOTD config.yml)
